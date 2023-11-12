@@ -33,10 +33,7 @@ with col1:
     st.markdown("Otstarve: sotsiaalmeedia tekstide loomine igale kliendigruppile ja platvormile; väljundtekst on kohandatud kliendi a) vanuserühmaga ja b) huvitegevusega; sisendtekstiks on neutraalses vormis toote-või teenusekirjeldus. \
     \n\n Kasutusjuhend: 1) valmista ette toote-või teenusekirjeldus (sisendtekst). 2) määra tarbijasegemendid lähtuvalt vanuserühma ja huvialade kombinatsioonidest. 3) sisesta ükshaaval tarbijasegmentide lõikes eeltoodud info äpi kasutajaliideses, saada ära. \
     4) kopeeri ükshaaval tarbijasegmentide lõikes äpi väljundteksti kõnealuse toote tutvustuslehele.")
-
-with col2:
-    st.image(image='companylogo.jpg', caption='Our company motto')
-
+ 
 st.markdown("## Enter Your Content To Convert")
 
 def get_api_key():
